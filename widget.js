@@ -380,7 +380,7 @@ const getContext = (key) => {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = './widget.css';
+    link.href = 'https://billionbrix-awsum.s3.us-east-2.amazonaws.com/Jsfile/widget.css';
 
     document.getElementsByTagName('HEAD')[0].appendChild(link);
     include('https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
